@@ -12,14 +12,14 @@ if (status !== "ON") {
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'dmps2434@gmail.com',
-    pass: 'ohwo ngws jnwh duyg'
+    user: '',
+    pass: ''
   }
 });
 
 const mailOptions = {
-  from: 'dmps2434@gmail.com',
-  to: 'singh.uday2434@gmail.com',
+  from: '',
+  to: '',
   subject: '🔓 Laptop Unlocked',
   text: `Laptop unlocked at ${new Date().toLocaleString()}`
 };
